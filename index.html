@@ -4,359 +4,285 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
     <title>Document</title>
 </head>
-
-
- 
- 
-<style>
- 
-    body {
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        display: absolute;
-    }
-    nav {
-        display: flex;
-        align-items: center;
-        background-color: black;
-        justify-content: space-around;
-    }
- 
-    li {
-        display: inline-block;
-        margin-left: 2rem;
-        color: white;
-        font-size: 2rem;
-    }
- 
-    .btn {
-        height: 40px;
-        width: 190px;
-        background-color: black;
-        border: solid 1px white;
-        color: white;
-        border-radius: 2px;
-    }
- 
-    #home {
-        height: 100%;
-        padding: 15rem 1rem;
-        display: grid;
-        justify-content: 2fr 1fr;
-        padding: 0 0 0 15rem;
-    }
- 
-    .btn2 {
-        width: 120px;
-        height: 40px;
-        background-color: white;
-        border: solid 1px black;
-        border-radius: 10px;
-        color: black;
-    }
- 
-    body {
-        margin: 0;
-    }
- 
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
- 
-    li {
-        display: inline-block;
-        margin-left: 2rem;
-        font-size: 1.5rem;
-    }
- 
-    #Home {
-        height: 100%;
-        padding: 10rem 0 15rem 0;
-        background-color: rgb(250, 250, 250);
-        color: white;
-    }
-    #About {
-    height: 100%;
-    padding: 10rem 1rem;
-    background-color:black;
-    color: white;;
-    border: solid 1px black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-    #certificates {
-    height: 100%;
-    padding: 15rem 1rem;
-    background-color:black;
-    border: solid 1px black;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 4rem;
-    color: white;
-    margin: 0;
-}
-
-.int {
-    max-width: 160rem;
-    margin: 0 auto;
-}
-
-
-
- 
-</style>
- 
- 
 <body>
- 
-<section class="int">
-            <header>
-        <nav>
-            <h1 style="color: white; font-size: 2rem;">WPMusic</h1>
-            <ul>
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Services</li>
-                <li>About</li>
-            </ul>
-            <button class="btn">
-                Download Button
-            </button>
-        </nav>
-    </header>
- 
-    <section id="home">
-        <div style="display: grid; grid-template-columns: 2fr 1fr; justify-content: center;">
-            <div style="width: 600px; font-size: 2rem;">
-                <h1 style="text-align: center; margin-top: 15rem;">Teaching Music And <br>Programming</h1>
- 
-                <p style="font-size: 1.2rem !important;">Hi! I'm a musician nurtured by Band 31 Sasmuan, Pampanga
-                    I specialized in playing Trumpet, Snare Drums, and
-                    French Horn(Double).  I'm a IT Student and I specialized in html, Web Designing, Web Developing, and
-                    Building Database(chariz).
-                </p>
-                <div style="text-align: center; margin-top: 3rem;">
-                    <button class="btn2">
-                        Contact me
-                    </button>
-                    <button  class="btn2">
-                        Learn more
-                    </button>
+    <section class="all">
+        <header class="header">
+            <nav class="navbar">
+                <h1 style="color: black; font-size: 4rem; font-weight: 700; color: white;">WPMusic</h1>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certificates" class="nav-link">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn" href="" role="button">Download Resume</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+           </nav>
+        </header>
+    
+    
+        <!-- home -->
+    
+        <section id="home">
+
+            <div class="main-cont">
+                <div class="half-home">
+                    <div class="kkkkk">
+                        <h1 style="color: black; " class="teaching">
+                            Teaching Music And Building A Ban
+                        </h1>
+                        <br><br><br>
+                        <h4 style="font-size: 20px;">
+                            Hi! I'm a musician nurtured by Band 31 Sasmuan, Pampanga
+                            I specialized in playing Trumpet, Snare Drums, and
+                            French Horn(Double).  I'm a IT Student and I specialized in html, Web Designing, Web Developing, and
+                            Building Database(chariz).
+                        </h4>
+                        <br><br><br>
+                        <div>
+                            <button  class="btn2">
+                                CONTACT ME
+                            </button>
+
+                            <button  class="btn2">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other-half">
+                    <img class="me" src="./images/MicrosoftTeams-image.png" alt="">
+                    <div style="color: white;" class="name-cont">
+                        <h1 style="font-size: 3rem;">
+                            Wilfredo T. Pilapil Jr.
+                        </h1>
+                        <p style="font-size: 16px;">
+                            3rd Year BSIT, future Band Manager
+                        </p>
+                        <br>
+                        <li style="font-size: 16px;">I can make some new piece from new songs.</li>
+                        <li style="font-size: 16px;">I can conduct</li>
+                        <li style="font-size: 16px;">I can teach music</li>
+                        <br>
+                        <h3 style="font-size: 2rem;">Est. 2023
+                            Based in the Philippines </h3>
+                    </div>
                 </div>
             </div>
-            <div style="background-color: black; color: white; padding: 1rem 9rem 2rem 1rem; height: 100%s;">
-                <div>
-                    <img src="MicrosoftTeams-image.png" alt="" width="330" height="370">
+        </section>
+
+
+        <section id="portfolio">
+            <h1 style="color: white; font-size: 4rem; margin-bottom: 8rem; text-align: center;">My Works</h1>
+            <div class="lol">
+                <div class="ole">
+                    <div style="text-align: center; color: white; font-size: 2rem; max-width: 400px;">
+                        <h1>Web Designing</h1>
+                        <p>
+                            Explore my gallery of web design projects, where aesthetics meet functionality.
+                            From sleek and modern interfaces to immersive user experiences,
+                            my designs are a fusion of creativity and seamless navigation.
+                        </p>
+                    </div>
+                    <div> 
+                        <img class="proj" src="./images/proj1.png" alt="">
+                    </div>
                 </div>
-                <div style="border: solid 1px white; border-radius: 10px; padding: 1rem;">
-                    <h1>Wilfredo T. Pilapil Jr.</h1>
-                    <p>3rd Year BSIT. Future Band Manager</p>
-                     ●I can make some new piece from new songs<br>
-                     ●I can conduct<br>
-                     ●I can make Website<br>
-                    <p>
-                        EST. 2023 <br>
-                        Based in the Philippines
+
+                <div class="ole">
+                    <div style="text-align: center; color: white; font-size: 2rem; max-width: 400px;">
+                        <h1>Web Developing</h1>
+                        <p>
+                            Witness the power of coding and creativity in my web development portfolio.
+                            From dynamic websites to interactive applications, each project is a testament
+                            to the possibilities that technology can unfold
+                        </p>
+                    </div>
+                    <div> 
+                        <img class="proj" src="./images/proj2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ole">
+                    <div style="text-align: center; color: white; font-size: 2rem; max-width: 400px;">
+                        <h1>Creating Music Piece</h1>
+                        <p>
+                            Dive into a world of musical expression where every note tells a story.
+                            From soulful compositions to rhythmic creations, my passion for music resonates in each piece I craft.
+                        </p>
+                    </div>
+                    <div> 
+                        <img class="proj" src="./images/proj3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="certificates">
+            <h1 style="font-size: 4rem; margin-bottom: 8rem; text-align: center; color: white;">
+                My Certificates
+            </h1>
+            <div class="shanks">
+                <div class="yassof">
+                    <img class="cert-image" src="./images/cert1.png" alt="">
+                    <img class="cert-image" src="./images/cert2.png" alt="">
+                    <img class="cert-image" src="./images/cert3.png" alt="">
+                </div>
+
+                <div class="yassof">
+                    <img class="cert-image" src="./images/cert4.png" alt="">
+                    <img class="cert-image" src="./images/cert5.png" alt="">
+                    <img class="cert-image" src="./images/cert6.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h1 style="font-size: 4rem; margin-bottom: 8rem; text-align: center; color: white;">
+                Services
+            </h1>
+            <div class="haha-cont">
+                <div class="haha">
+                    Building robust and secure e-commerce platforms that elevate your online business.
+                    I integrate user-friendly interfaces with powerful functionality
+                    to enhance your customers' online shopping experience.
+                </div>
+                <div class="haha">
+                    Offering personalized music lessons tailored to your individual goals and interests.
+                    Whether you're a beginner or looking to refine your skills,
+                    I provide a supportive and enriching learning environment.
+                </div>
+                <div  class="haha">
+                    Enhancing your online identity with multimedia elements. From striking visuals to engaging videos,
+                    I incorporate multimedia to make your website an immersive and captivating experience.
+                </div> 
+            </div>
+        </section>
+
+
+        <section id="about">
+            <h1 style="font-size: 4rem; margin-bottom: 8rem; text-align: center; color: white;">
+                About Me
+            </h1>
+            <div class="august">
+                <div class="num">
+                    <img class="jun" src="./images/team-image.png" alt="">
+                    <img class="jun" src="./images/kkkkkk.png" alt="">
+                </div>
+    
+                <div class="info">
+                    <p style="font-size: 3rem; color: white; ">
+                        Hello, I'm Wilfredo T. Pilapil Jr.,
+                        a 21-year-old Bachelor of Science in Information Technology student with a unique twist—
+                        I'm also an aspiring band manager. As I navigate the world of bits and codes,
+                        I find equal joy in orchestrating the harmonies of musical notes.
+                        This duality in my pursuits defines my journey, merging the digital realm with the rhythm of creativity. 
+                        <br>
+                        <br>
+                        <br>
+                        As I delve into web design, I see each project as an opportunity to create a digital masterpiece.
+                        The aesthetics of a website are just as vital as its functionality, 
+                        and my exploration in this area involves mastering the principles of design,
+                        understanding user experience, and incorporating creativity into every pixel.
+                        The canvas of the internet becomes my palette, and each project a chance to blend technology with artistic flair.
+                        <br>
+                        <br>
+                        <br>
+                        Beyond the binary, my heart beats in sync with the rhythm of music.
+                        As an aspiring band manager, I am drawn to the artistry of sound and the magic it creates.
+                        Whether it's the pulsating beats of a drum or the gentle strumming of a guitar, 
+                        I see music as a language that transcends boundaries, connecting people on a profound level.
+                        <br>
+                        <br>
+                        <br>
+                        In the confluence of technology and the arts, I, Wilfredo T. Pilapil Jr.,
+                        find my unique identity. As I walk the halls of academia,
+                        I carry the beat of my musical aspirations, and as I explore the world of band management,
+                        I bring with me the analytical mindset cultivated in the realm of Information Technology.
+                        This is my journey—bridging two worlds, finding harmony in the unexpected,
+                        and shaping a future where bytes and beats create a symphony of innovation.
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
- 
-  <section id="About" style="height: 100%; display: grid; align-items: center; justify-content: center; border-bottom: solid 1px white;">
-    <h1 style="text-align: center; font-size: 3rem;" >My work</h1>
-    <div style="display: grid;">
-        <br>
-        <br>
-        <br>
-        <div style="display: grid; gap: 5rem; grid-template-columns: 300px 400px; margin-bottom: 4rem;">
-            <div>
-                <h1 style="text-align: center; font-size: 2rem;">Web Designing</h1>
-                <h3>Explore my gallery of web design projects, where aesthetics meet functionality.
-                    From sleek and modern interfaces to immersive user experiences,
-                    my designs are a fusion of creativity and seamless navigation.</h3>
-            </div>
-            <div>
-                <img style="object-fit: cover; height: 200px; margin-top: 30px;" src="123.png" alt="">
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div style="display: grid; gap: 5rem; grid-template-columns: 300px 400px; margin-bottom: 4rem;">
-            <div>
-                <h1 style="text-align: center; font-size: 2rem;">Web Developing</h1>
-                <h3>Witness the power of coding and creativity in my web development portfolio.
-                    From dynamic websites to interactive applications, each project is a testament
-                    to the possibilities that technology can unfold</h3>
-            </div>
- 
-            <div>
-                <img style="object-fit: cover; height: 250px; width: 290px; margin-top: 30px;" src="Untitled.png" alt="">
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <div style="display: grid; gap: 5rem; grid-template-columns: 300px 400px; margin-bottom: 4rem;">
-      <div>
-          <h1 style="text-align: center; font-size: 2rem;">Creating Music Piece</h1>
-          <h3>Dive into a world of musical expression where every note tells a story.
-            From soulful compositions to rhythmic creations, my passion for music resonates in each piece I craft.</h3>
-      </div>
-     
-      <div>
-          <img style="object-fit: cover; height: 300px;" src="MicrosoftTeams-image (2).png" alt="">
-      </div>
-</section>
-
-<section id="certificates">
-    <h1 style="font-size: 3rem;">My Certificates</h1>
-    <div style="display: flex; align-items: center;
-        justify-content: center; gap: 1rem;">
-        <div class="card1">
-            <img height="300px" src="adaq.png" alt="" width="400px" heigth="100px" >
-            <div>
-              <img height="300px" src="data.png" alt="" width="400px" heigth="100px">
-          </div>
-        </div>
- 
-        <div>
-            <img height="300px" src="ddc.png" alt="" width="400px" heigth="100px">
-            <div>
-              <img height="300px" src="ddd.png" alt="" width="400px" heigth="100px">
-           
-          </div>
-        </div>
- 
-        <div>
-            <img height="300px" src="share.png" alt="" width="400px" heigth="100px">
-            <div>
-              <img height="300px" src="gg.png" alt="" width="400px" heigth="100px">
-          </div>
-        </div>
-    </div>
-</section>
-
-<section id="Services" style="border-bottom: solid 1px white;">
-    <h1 style="text-align: center; font-size: 3rem;">Services</h1>
-    <div style="display: flex; justify-content: space-evenly; gap: 2rem; align-items: center;">
-        <div style="display: flex; text-align: center; padding: 1rem; border-radius: 10px; border: solid 1px white;  flex-direction: column; row-gap: 20px;">
-            <div>
-                <img style="height: 60px;" src="app-development.png" alt="">
-            </div>
-            <div>
-                <p>Building robust and secure e-commerce platforms that elevate your online business.
-                   I integrate user-friendly interfaces with powerful functionality
-                   to enhance your customers' online shopping experience.
-                </p>
-            </div>
-        </div>
-        <div style="display: flex; text-align: center; padding: 1rem; border-radius: 10px; border: solid 1px white; flex-direction: column; row-gap: 20px;">
-            <div>
-                <img style="height: 60px;" src="saxophonist.png" alt="">
-            </div>
-            <div>
-                <p>Offering personalized music lessons tailored to your individual goals and interests.
-                   Whether you're a beginner or looking to refine your skills,
-                   I provide a supportive and enriching learning environment.
-                </p>
-            </div>
-        </div>
-        <div style="display: flex; text-align: center; padding: 1rem; border-radius: 10px; border: solid 1px white; flex-direction: column; row-gap: 20px;">
-            <div>
-                <img style="height: 60px;" src="web-design.png" alt="">
-            </div>
-            <div>
-                <p>Enhancing your online identity with multimedia elements. From striking visuals to engaging videos,
-                   I incorporate multimedia to make your website an immersive and captivating experience.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section id="about">
-    <h1 style="text-align: center; font-size: 3rem; color: white;">About Me</h1>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; justify-content: center; align-items: center;">
-        <div style="display: grid; row-gap: 20px; background-color: black; margin-left: 10rem;">
-            <img style="height: 300px;" src="./team-image.png" alt="">
-            <img style="height: 300px; width: 400px;" src="./kkkkkk.png" alt="">
-        </div>
-        
-        <div style="background-color: black; height: 610px; padding: 1rem; border: solid 1px white; border-radius: 10px; margin-right: 10rem;">
-            <p style="color: white; text-align: center;">
-                Hello, I'm Wilfredo T. Pilapil Jr.,
-                 a 21-year-old Bachelor of Science in Information Technology student with a unique twist—
-                 I'm also an aspiring band manager. As I navigate the world of bits and codes,
-                 I find equal joy in orchestrating the harmonies of musical notes.
-                 This duality in my pursuits defines my journey, merging the digital realm with the rhythm of creativity. 
-                 <br>
-                 <br>
-                 <br>
-                 As I delve into web design, I see each project as an opportunity to create a digital masterpiece.
-                The aesthetics of a website are just as vital as its functionality, 
-                and my exploration in this area involves mastering the principles of design,
-                understanding user experience, and incorporating creativity into every pixel.
-                 The canvas of the internet becomes my palette, and each project a chance to blend technology with artistic flair.
-                 <br>
-                 <br>
-                 <br>
-                 Beyond the binary, my heart beats in sync with the rhythm of music.
-                 As an aspiring band manager, I am drawn to the artistry of sound and the magic it creates.
-                 Whether it's the pulsating beats of a drum or the gentle strumming of a guitar, 
-                 I see music as a language that transcends boundaries, connecting people on a profound level.
-                 <br>
-                 <br>
-                 <br>
-                 In the confluence of technology and the arts, I, Wilfredo T. Pilapil Jr.,
-                 find my unique identity. As I walk the halls of academia,
-                 I carry the beat of my musical aspirations, and as I explore the world of band management,
-                 I bring with me the analytical mindset cultivated in the realm of Information Technology.
-                 This is my journey—bridging two worlds, finding harmony in the unexpected,
-                 and shaping a future where bytes and beats create a symphony of innovation.
-            </p>
-        </div>
-    </div>
-</section>
-
-
-
-<section id="footer">
-        <div style="color: white;">
-            <h2>Get in touch</h2>
-            <h4>If you want to learn more about Programming and Music</h4>
-            <p>Love creating Designs, Developing Web Applications, and Making Music Piece</p>
-            <a href="https://www.facebook.com/nior.tungcab" class="button">Contact Me</a>
             
-        </div>
-        <br>
-        <di>
-           <a href="https://github.com/SaintLotuss" target="_blank" role="button"><img style="height: 40px;" src="./github.png" alt=""></a>
-           <a href="https://www.facebook.com/nior.tungcab" target="_blank" role="button"><img style="height: 40px;" src="./facebook.png" alt=""></a>
-           <a href="https://www.instagram.com/definitelynotnior/" target="_blank" role="button"><img style="height: 40px;" src="./instagram.png" alt=""></a>
-           <a href="https://twitter.com/CircleIV_Greed" target="_blank" role="button"><img style="height: 40px;" src="./twitter.png" alt=""></a>
-        </di>
-        
-        <div>
-            <p style="color: white;">Copyright © 2023 Wilfredo Pilapil. All rights reserved</p>
-        </div>
-</section>
- 
-</section>
- 
+        </section>
+
+
+        <section id="footer">
+            <footer style="text-align: center; color: white;">
+                <div>
+                    <h1 style="font-size: 24px;">Get in touch</h1>
+                    <br>
+                    <h4 style="font-size: 18px;">If you want to learn more about Programming and Music</h4>
+                    <p style="font-size: 18px;">Love creating Designs, Developing Web Applications, and Making Music Piece</p>
+                    <br>
+                    <a style="font-size: 18px;" href="" role="button">Contact Me</a>
+                    <br><br><br>
+                    <img src="./images/facebook.png" alt="" class="icons">
+                    <img src="./images/instagram.png" alt="" class="icons">
+                    <img src="./images/twitter.png" alt="" class="icons">
+                </div>
+                <br><br><br>
+                <div>
+                    <p>Copyright © 2023 Wilfredo Pilapil. All rights reserved</p>
+                </div>
+            </footer>
+        </section>
+
+
+    </section>
+    
+
 </body>
+
+
+
+
+
+
+
+
+
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+    const navLink = document.querySelectorAll(".nav-link");
+
+    navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }
+</script>
 </html>
